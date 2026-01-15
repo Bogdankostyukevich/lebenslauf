@@ -1,0 +1,148 @@
+:root {
+    --main-title-color: rgb(214, 163, 0);
+    --sidebar-text-color: #ffffff;
+    --background-sidebar: #4a627a;
+    --experience-text-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Universalwähler */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+h2 {
+    color: var(--main-title-color);
+}
+
+.header__title,
+.experience,
+.nav__address--link,
+.personal-data__item,
+.personal-data__text,
+.post-date,
+.work-experience__title,
+.portfolio-list__link {
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
+
+/* xperience */
+.header__title {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.resume-container {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    margin: 15px;
+}
+
+.experience,
+.portfolio-list__link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 22px;
+}    
+
+.experience__title {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.post-date {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.work-experience__title,
+.portfolio__title {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.portfolio-list {
+    margin-bottom: 45px;
+}
+
+.tech-skills__list,
+.job-list {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+}
+
+.portfolio__title {
+    margin-top: 20px;
+}
+
+.job-list {
+    margin-bottom: 45px;
+}
+
+/* sidebar */
+.sidebar {
+    flex: 0 0 30%; 
+    background-color: var(--background-sidebar); 
+    color: var(--sidebar-text-color); 
+    padding: 20px;
+    font-family: 'Lora', serif;
+}
+
+.sidebar__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 50px;
+}
+
+.nav,
+.personal-data {
+    margin-bottom: 50px;
+}
+
+/* sidebar kontakts */
+.nav__title,
+.personal-data__title {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.nav__address--link,
+.personal-data__item,
+.personal-data__text {
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+/* experience */
+.experience {
+    /* flex: 1; */
+    padding: 40px;
+    color: var(--experience-text-color);
+}
+
+.nav__address--link {
+    color: var(--sidebar-text-color);
+    font-style: normal;
+}
+
