@@ -1,9 +1,9 @@
 :root {
     --main-title-color: rgb(214, 163, 0);
-    --sidebar-text-color: #ffffff;
+    --sidebar-text-color:rgba(217, 226, 243, 0.9);
     --background-sidebar: #4a627a;
     --experience-text-color: rgba(0, 0, 0, 0.8);
-    --background-body-color: rgba(231, 230, 230, 1);
+    --background-body-color: rgba(217, 226, 243, 0.1);
 }
 
 
@@ -109,7 +109,7 @@ h2 {
 /* sidebar */
 .sidebar {
     background-color: var(--background-sidebar); 
-    color: var(--background-body-color); 
+    color: var(--sidebar-text-color); 
 
     padding: 20px;
     font-family: 'Lora', serif;
@@ -150,6 +150,13 @@ h2 {
     margin-bottom: 10px;
 }
 
+.nav__address--link {
+    color: var(--sidebar-text-color);
+
+    font-style: normal;
+}
+
+
 .personal-data__item:not(:last-child) {
     margin-bottom: 10px;
 }
@@ -168,13 +175,5 @@ h2 {
     padding: 40px;
 
     color: var(--experience-text-color);
-}
-
-.nav__address--link {
-    color: var(--background-body-color);
-
-    font-style: normal;
-
-
 }
 
