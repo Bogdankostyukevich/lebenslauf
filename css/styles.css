@@ -61,6 +61,13 @@ h2 {
     font-size: 22px;
 }    
 
+.experience__title::before {
+    content: "";
+    display: block;
+    height: 1px;
+    outline: 1px solid var(--main-title-color);
+}
+
 .experience__title {
     margin-top: 20px;
     margin-bottom: 5px;
@@ -91,7 +98,7 @@ h2 {
 }
 
 .portfolio-list__item:not(:last-child) {
-margin-right: 20px;
+    margin-right: 20px;
 }
 
 .portfolio-list__link {
@@ -198,12 +205,21 @@ margin-right: 20px;
 
 .nav__address--link:hover {
     color: var(--main-title-color);
+    font-size: 21px;
 }
 
 .contacts__icon {
     margin-right: 7px;
 
     fill: currentColor;
+}
+
+.personal-data::before {
+
+    content: "";
+    display: block;
+    height: 1px;
+    outline: 1px solid var(--sidebar-text-color);
 }
 
 .personal-data__item:not(:last-child) {
