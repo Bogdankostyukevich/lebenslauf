@@ -40,6 +40,10 @@ h2 {
 
 /* xperience */
 .header__title {
+    position: absolute;
+    top: 130px;
+    left: 458px;
+
     text-decoration: none;
 
     font-weight: 700;
@@ -53,6 +57,16 @@ h2 {
     margin: 15px;
 }
 
+.experience {
+    position: relative;
+    max-width: 850px;
+
+    margin-top: 190px;
+    padding: 40px;
+
+    color: var(--experience-text-color);
+}
+
 .experience,
 .portfolio-list__link {
     text-decoration: none;
@@ -64,7 +78,10 @@ h2 {
 .experience__title::before {
     content: "";
     display: block;
+
+    margin-bottom: 10px;
     height: 1px;
+
     outline: 1px solid var(--main-title-color);
 }
 
@@ -215,10 +232,12 @@ h2 {
 }
 
 .personal-data::before {
-
     content: "";
     display: block;
+
+    margin-bottom: 10px;
     height: 1px;
+
     outline: 1px solid var(--sidebar-text-color);
 }
 
@@ -235,10 +254,4 @@ h2 {
     margin-top: 5px;
 }
 
-/* experience */
-.experience {
-    padding: 40px;
-
-    color: var(--experience-text-color);
-}
 
