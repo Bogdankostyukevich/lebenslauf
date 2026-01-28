@@ -166,6 +166,10 @@ h2 {
     margin-bottom: 45px;
 }
 
+.indent {
+    margin-left: 14px;
+}
+
 /* sidebar */
 .sidebar {
     background-color: var(--background-sidebar); 
@@ -220,9 +224,9 @@ h2 {
     transition: color 250ms var(--transform);
 }
 
-.nav__address--link:hover {
+.nav__address--link:hover,
+.nav__address--link:focus {
     color: var(--main-title-color);
-    font-size: 21px;
 }
 
 .contacts__icon {
