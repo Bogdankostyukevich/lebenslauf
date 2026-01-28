@@ -38,6 +38,10 @@ h2 {
     letter-spacing: 0.02em;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 /* xperience */
 .header__title {
     position: absolute;
@@ -219,7 +223,7 @@ h2 {
     font-style: normal;
 
     display: inline-flex;
-    align-items: center;
+    align-items: flex-start;
 
     transition: color 250ms var(--transform);
 }
